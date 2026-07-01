@@ -12,3 +12,6 @@ docker run -d \
   -e MINIO_ROOT_PASSWORD=minio123 \
   quay.io/minio/minio server /data --console-address ":9001"
 ```
+
+# url minio
+> http://localhost:9001/
