@@ -15,3 +15,6 @@ docker run -d \
 
 # url minio
 > http://localhost:9001/
+
+user: minio
+password: minio123
