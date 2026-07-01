@@ -1,4 +1,4 @@
-# kafkaconsumer_s3
+# consumer_s3
 
 
 # Start service Minio 
