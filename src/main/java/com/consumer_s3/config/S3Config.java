@@ -16,11 +16,11 @@ public class S3Config {
   public S3Client s3Client() {
 
     return S3Client.builder()
-      .endpointOverride(URI.create("http://localhost:9001"))
+      .endpointOverride(URI.create("http://localhost:9000"))
       .region(Region.US_EAST_1)
       .credentialsProvider(
         StaticCredentialsProvider.create(
-          AwsBasicCredentials.create("mini", "minio123")))
+          AwsBasicCredentials.create("minio", "minio123")))
       .forcePathStyle(true)
       .build();
   }
